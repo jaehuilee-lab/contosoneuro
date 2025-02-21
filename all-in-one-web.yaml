@@ -22,7 +22,7 @@ spec:
       name: web
     spec:
       containers:
-      - image: cnacr[SUFFIX].azurecr.io/content-web
+      - image: cnacrjaehui.azurecr.io/content-web
         env:
           - name: CONTENT_API_URL
             value: http://api:3001
